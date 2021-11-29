@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Domine"; 
+    src: url("../fonts/Domine-Bold.ttf") format(".ttf")
+    url("../fonts/Domine-Regular.ttf") format(".ttf"); 
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-Bold.ttf") format(".ttf")
+    url("../fonts/Montserrat-Regular.ttf") format(".ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Bold.ttf") format(".ttf")
+    url("../fonts/OpenSans-Regular.ttf") format(".ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background:#ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button, img {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 220px 0 210px;
+}
+
+.point {
+    color: #fa5c65;
+}
+
+/* ------header top --------- */
+.container-header-background {
+    padding: 0 220px 0 210px;
+    background-image: url('../images/background_header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-menu-ico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-nav li a {
+    padding:  0 15px;
+    color: #263742;
+}
+
+.main-nav a:hover{
+    color: #fa5c65;
+    font-weight: bold;
+}  
+
+.header-ico img {
+    padding:  0 15px;
+}
+
+.top {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.slogan-title-text h1 {
+    padding-top: 310px;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #314a5b;
+}
+
+.slogan-title-text p {
+    font-family: OpenSans, sans-serif;
+    font-size: 20px;
+    color: #314a5b;
+}
+
+.top-button button {
+    background-color: #fa5c65;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 20px 43px;
+    margin: 46px 0 384px 0;
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: OpenSans-Bold, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.top-button button:hover {
+    color: #ffffff;
+    background-color: #263742;
+    font-family: OpenSans-Bold, sans-serif;
+    font-weight: bold;
+}
+/* ------- header top end ----- */
+/* ------content------ */
+/* -------content snippet------ */
+.content-snippets {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 87px;
+    line-height: 1.5;
+}
+
+.snippet {
+    width: 256px;
+}
+
+.snippet h1 p {
+    display: flex;
+}
+
+.snippet h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #465065;
+}
+
+.snippet .snippet-paragraph {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    color: #9aa0ab;
+    margin: 27px 0;
+}
+
+.snippet .more-text  .more {
+    display: flex;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+    color: #fa5c65;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.snippet .more-text  {
+    display: flex;
+    flex-direction: row;
+}
+/* -------content snippet end------ */
+/* -------content portfolio------ */
+.portfolio-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.img-macbook .portfolio {
+    display: flex;
+    flex-direction: row;
+    width: 450px; 
+}
+
+.portfolio h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #314a5b;
+}
+
+.portfolio h2 {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3d5565;
+}
+
+.portfolio .portfolio-paragraph {
+    margin: 35px 0;
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 15px;
+    color: #9aa0ab;
+}
+
+
+.content-portfolio .more-text  .more {
+    display: flex;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+    color: #fa5c65;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content-portfolio .more-text  {
+    display: flex;
+    flex-direction: row;
+}
+/* -------content portfolio end------ */
+/* -------content our team------ */
+.our-team-title h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #314a5b;
+}
+
+.our-team-title .our-team-title-paragraph {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 16px;
+    color: #9aa0ab;
+    margin-top: 18px;
+}
+
+.team-member-1 {
+    width: 160px;
+    margin-left: 28px;
+}
+
+.team-member-1 h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #314a5b;
+}
+
+.team-member-1 h2 {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #f0454c;
+}
+
+.team-member-1 .our-team-members-paragraph {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #aeb3bc;
+}
+
+.our-team .more-text  .more {
+    display: flex;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+    color: #fa5c65;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.our-team .more-text  {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 55px;
+}
+
+.our-team-members {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    line-height: 1.5;
+}
+.team-member {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-member {
+    display: flex;
+    flex-direction: row;
+}
+/* -------content our team end------ */
+/* -------content footer------ */
+.line {
+    margin: 62px 0 35px 0;
+    border-bottom: 1px solid #e6eaed; 
+}
+
+.icons-and-copyrights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.social-icons {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright .copyright-paragraph {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 13px;
+    color: #b9c0c6;
+}
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
