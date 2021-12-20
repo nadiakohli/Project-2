@@ -54,6 +54,7 @@ a {
 .container-header-background {
     padding: 0 220px 0 210px;
     background-image: url('../images/backgroundHeader.png');
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,6 +98,12 @@ a {
     padding: 0 15px;
 }
 
+.top-wrapper {
+    height: calc(100vh - 79px);
+    display: flex;
+    align-items: center;
+}
+
 .top {
     width: 540px;
     display: flex;
@@ -107,7 +114,6 @@ a {
 }
 
 .slogan-title-text h1 {
-    padding-top: 310px;
     font-family: Montserrat-Bold, sans-serif;
     font-size: 48px;
     text-transform: uppercase;
@@ -127,7 +133,7 @@ a {
     border-radius: 5px;
     color: #ffffff;
     padding: 20px 43px;
-    margin: 46px 0 384px 0;
+    margin-top: 46px;
     text-align: left;
     text-decoration: none;
     font-size: 15px;
