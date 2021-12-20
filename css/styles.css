@@ -25,7 +25,7 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background:#ffffff;
+    background: #ffffff;
 }
 
 header {
@@ -53,8 +53,8 @@ a {
 /* ------header top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
+    background-image: url('../images/backgroundHeader.png');
     height: 100vh;
-    background-image: url('../images/background_header.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@ a {
 }
 
 .main-nav li a {
-    padding:  0 15px;
+    padding: 0 15px;
     color: #263742;
 }
 
@@ -95,7 +95,7 @@ a {
 }  
 
 .header-ico img {
-    padding:  0 15px;
+    padding: 0 15px;
 }
 
 .top-wrapper {
@@ -183,7 +183,7 @@ a {
     margin: 27px 0;
 }
 
-.snippet .more-text  .more {
+.snippet .more-text .more {
     display: flex;
     font-family: Montserrat-Regular, sans-serif;
     font-size: 14px;
@@ -242,7 +242,7 @@ a {
 }
 
 
-.content-portfolio .more-text  .more {
+.content-portfolio .more-text .more {
     display: flex;
     font-family: Montserrat-Regular, sans-serif;
     font-size: 14px;
@@ -251,7 +251,7 @@ a {
     font-weight: bold;
 }
 
-.content-portfolio .more-text  {
+.content-portfolio .more-text {
     display: flex;
     flex-direction: row;
 }
@@ -288,18 +288,16 @@ a {
 .team-member-1 h2 {
     font-family: OpenSans-Regular, sans-serif;
     font-size: 14px;
-    /* font-weight: bold; */
     color: #f0454c;
 }
 
 .team-member-1 .our-team-members-paragraph {
     font-family: OpenSans-Regular, sans-serif;
     font-size: 14px;
-    /* font-weight: bold; */
     color: #aeb3bc;
 }
 
-.our-team .more-text  .more {
+.our-team .more-text .more {
     display: flex;
     font-family: Montserrat-Regular, sans-serif;
     font-size: 14px;
@@ -308,7 +306,7 @@ a {
     font-weight: bold;
 }
 
-.our-team .more-text  {
+.our-team .more-text {
     display: flex;
     flex-direction: row;
     justify-content: right;
