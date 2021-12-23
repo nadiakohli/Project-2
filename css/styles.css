@@ -50,11 +50,18 @@ a {
     color: #fa5c65;
 }
 
+.right-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
 /* ------header top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
     height: 100vh;
-    background-image: url('../images/background_header.png');
+    background-image: url('../images/backgroundHeader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -235,10 +242,14 @@ a {
 }
 
 .portfolio .portfolio-paragraph {
-    margin: 35px 0;
+    margin-top: 35px;
     font-family: OpenSans-Regular, sans-serif;
     font-size: 15px;
     color: #9aa0ab;
+}
+
+.portfolio .more-text  {
+    margin-top: 40px;
 }
 
 
@@ -283,12 +294,14 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     color: #314a5b;
+    margin-bottom: 5px;
 }
 
 .team-member h2 {
     font-family: OpenSans-Regular, sans-serif;
     font-size: 14px;
     color: #f0454c;
+    margin-bottom: 15px;
 }
 
 .team-member .our-team-members-paragraph {
