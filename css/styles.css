@@ -56,7 +56,6 @@ a {
     align-items: center;
     margin-left: 10px;
 }
-
 /* ------header top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
@@ -199,9 +198,12 @@ a {
     font-weight: bold;
 }
 
-.snippet .more-text  {
+.snippet .more-text { 
+    width: 62px;
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
 }
 /* -------content snippet end------ */
 /* -------content portfolio------ */
@@ -248,10 +250,9 @@ a {
     color: #9aa0ab;
 }
 
-.portfolio .more-text  {
+.portfolio .more-text {
     margin-top: 40px;
 }
-
 
 .content-portfolio .more-text .more {
     display: flex;
@@ -368,6 +369,7 @@ a {
     font-size: 13px;
     color: #b9c0c6;
 }
+/* -------content footer end------ */
 
 
 
