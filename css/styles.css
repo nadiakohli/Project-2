@@ -201,9 +201,14 @@ a {
 .snippet .more-text { 
     width: 62px;
     display: flex;
+    opacity: 0;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
+}
+
+.snippet:hover .more-text {
+    opacity: 1;
 }
 /* -------content snippet end------ */
 /* -------content portfolio------ */
@@ -250,8 +255,9 @@ a {
     color: #9aa0ab;
 }
 
-.portfolio .more-text {
+.portfolio:hover .more-text {
     margin-top: 40px;
+    opacity: 1;
 }
 
 .content-portfolio .more-text .more {
@@ -266,6 +272,7 @@ a {
 .content-portfolio .more-text {
     display: flex;
     flex-direction: row;
+    opacity: 0;
 }
 /* -------content portfolio end------ */
 /* -------content our team------ */
@@ -327,6 +334,10 @@ a {
     margin-top: 55px;
 }
 
+.more-text {
+    opacity: 0;
+}
+
 .our-team-members {
     display: flex;
     flex-direction: row;
@@ -338,6 +349,10 @@ a {
 .team-members {
     display: flex;
     flex-direction: column;
+}
+
+.team-members:hover .more-text { 
+    opacity: 1;
 }
 
 .wrapper-img-member {
