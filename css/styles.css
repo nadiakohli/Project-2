@@ -217,6 +217,7 @@ a {
     display: flex;
     flex-direction: row;
     width: 450px; 
+    opacity: 0;
 }
 
 .portfolio h1 {
@@ -272,12 +273,12 @@ a {
     margin-top: 18px;
 }
 
-.team-member-1 {
+.team-member {
     width: 160px;
     margin-left: 28px;
 }
 
-.team-member-1 h1 {
+.team-member h1 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 22px;
     text-transform: uppercase;
@@ -285,13 +286,13 @@ a {
     color: #314a5b;
 }
 
-.team-member-1 h2 {
+.team-member h2 {
     font-family: OpenSans-Regular, sans-serif;
     font-size: 14px;
     color: #f0454c;
 }
 
-.team-member-1 .our-team-members-paragraph {
+.team-member .our-team-members-paragraph {
     font-family: OpenSans-Regular, sans-serif;
     font-size: 14px;
     color: #aeb3bc;
@@ -321,9 +322,13 @@ a {
     margin-top: 48px;
     line-height: 1.5;
 }
-.team-member {
+.team-members {
     display: flex;
     flex-direction: column;
+}
+
+.team-member:hover .more-text { 
+    opacity: 1;
 }
 
 .img-member {
