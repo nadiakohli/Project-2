@@ -25,7 +25,7 @@
 html, body {
     margin: 0;
     box-sizing: border-box;
-    background: #ffffff;
+    background: #fff;
 }
 
 header {
@@ -50,7 +50,7 @@ a {
     color: #fa5c65;
 }
 
-/* ------header top --------- */
+/* ------header-top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
     background-image: url('../images/backgroundHeader.png');
@@ -131,7 +131,7 @@ a {
     background-color: #fa5c65;
     border: none;
     border-radius: 5px;
-    color: #ffffff;
+    color: #fff;
     padding: 20px 43px;
     margin-top: 46px;
     text-align: left;
@@ -143,14 +143,14 @@ a {
 }
 
 .top-button button:hover {
-    color: #ffffff;
+    color: #fff;
     background-color: #263742;
     font-family: OpenSans-Bold, sans-serif;
     font-weight: bold;
 }
-/* ------- header top end ----- */
+
 /* ------content------ */
-/* -------content snippet------ */
+/* -------content-snippet------ */
 .content-snippets {
     display: flex;
     flex-direction: row;
@@ -196,8 +196,8 @@ a {
     display: flex;
     flex-direction: row;
 }
-/* -------content snippet end------ */
-/* -------content portfolio------ */
+
+/* -------content-portfolio------ */
 .portfolio-elements {
     display: flex;
     flex-direction: row;
@@ -255,8 +255,8 @@ a {
     display: flex;
     flex-direction: row;
 }
-/* -------content portfolio end------ */
-/* -------content our team------ */
+
+/* -------content-our-team------ */
 .our-team-title h1 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 32px;
@@ -330,8 +330,8 @@ a {
     display: flex;
     flex-direction: row;
 }
-/* -------content our team end------ */
-/* -------content footer------ */
+
+/* -------content-footer------ */
 .line {
     margin: 62px 0 35px 0;
     border-bottom: 1px solid #e6eaed; 
