@@ -56,11 +56,12 @@ a {
     align-items: center;
     margin-left: 10px;
 }
-/* ------header top --------- */
+
+/* ------header-top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
-    height: 100vh;
     background-image: url('../images/backgroundHeader.png');
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -137,7 +138,7 @@ a {
     background-color: #fa5c65;
     border: none;
     border-radius: 5px;
-    color: #ffffff;
+    color: #fff;
     padding: 20px 43px;
     margin-top: 46px;
     text-align: left;
@@ -149,14 +150,14 @@ a {
 }
 
 .top-button button:hover {
-    color: #ffffff;
+    color: #fff;
     background-color: #263742;
     font-family: OpenSans-Bold, sans-serif;
     font-weight: bold;
 }
-/* ------- header top end ----- */
+
 /* ------content------ */
-/* -------content snippet------ */
+/* -------content-snippet------ */
 .content-snippets {
     display: flex;
     flex-direction: row;
@@ -210,8 +211,8 @@ a {
 .snippet:hover .more-text {
     opacity: 1;
 }
-/* -------content snippet end------ */
-/* -------content portfolio------ */
+
+/* -------content-portfolio------ */
 .portfolio-elements {
     display: flex;
     flex-direction: row;
@@ -227,7 +228,7 @@ a {
     margin-top: 40px;
 }
 
-.macbook-img-wrapper .portfolio {
+.img-macbook .portfolio {
     display: flex;
     flex-direction: row;
     width: 450px; 
@@ -274,8 +275,8 @@ a {
     flex-direction: row;
     opacity: 0;
 }
-/* -------content portfolio end------ */
-/* -------content our team------ */
+
+/* -------content-our-team------ */
 .our-team-title h1 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 32px;
@@ -291,12 +292,12 @@ a {
     margin-top: 18px;
 }
 
-.team-member {
+.team-member-1 {
     width: 160px;
     margin-left: 28px;
 }
-
-.team-member h1 {
+  
+.team-member-1 h1 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 22px;
     text-transform: uppercase;
@@ -312,7 +313,16 @@ a {
     margin-bottom: 15px;
 }
 
-.team-member .our-team-members-paragraph {
+/* .team-member .our-team-members-paragraph {
+} */
+
+.team-member-1 h2 {
+    font-family: OpenSans-Regular, sans-serif;
+    font-size: 14px;
+    color: #f0454c;
+}
+
+.team-member-1 .our-team-members-paragraph {
     font-family: OpenSans-Regular, sans-serif;
     font-size: 14px;
     color: #aeb3bc;
@@ -346,21 +356,22 @@ a {
     margin-top: 48px;
     line-height: 1.5;
 }
-.team-members {
+
+.team-member {
     display: flex;
     flex-direction: column;
 }
 
-.team-members:hover .more-text { 
+.team-member:hover .more-text { 
     opacity: 1;
 }
 
-.wrapper-img-member {
+.img-member {
     display: flex;
     flex-direction: row;
 }
-/* -------content our team end------ */
-/* -------content footer------ */
+
+/* -------content-footer------ */
 .line {
     margin: 62px 0 35px 0;
     border-bottom: 1px solid #e6eaed; 
@@ -384,7 +395,7 @@ a {
     font-size: 13px;
     color: #b9c0c6;
 }
-/* -------content footer end------ */
+
 
 
 
