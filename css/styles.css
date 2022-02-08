@@ -50,6 +50,13 @@ a {
     color: #fa5c65;
 }
 
+.right-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
 /* ------header-top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
