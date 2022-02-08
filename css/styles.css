@@ -190,18 +190,20 @@ a {
     margin: 27px 0;
 }
 
-.snippet .more-text .more {
+.snippet .more-text {
     display: flex;
     font-family: Montserrat-Regular, sans-serif;
     font-size: 14px;
     color: #fa5c65;
     text-transform: uppercase;
     font-weight: bold;
+    opacity: 0;
 }
 
-.snippet .more-text  {
+.snippet:hover .more-text  {
     display: flex;
     flex-direction: row;
+    opacity: 1;
 }
 
 /* -------content-portfolio------ */
@@ -220,7 +222,7 @@ a {
     margin-top: 40px;
 }
 
-.img-macbook .portfolio {
+.wrapper-img-macbook .portfolio {
     display: flex;
     flex-direction: row;
     width: 450px; 
@@ -250,18 +252,20 @@ a {
 }
 
 
-.content-portfolio .more-text .more {
+.content-portfolio .more-text {
     display: flex;
     font-family: Montserrat-Regular, sans-serif;
     font-size: 14px;
     color: #fa5c65;
     text-transform: uppercase;
     font-weight: bold;
+    opacity: 0;
 }
 
-.content-portfolio .more-text {
+.portfolio:hover .more-text {
     display: flex;
     flex-direction: row;
+    opacity: 1;
 }
 
 /* -------content-our-team------ */
@@ -329,6 +333,7 @@ a {
     margin-top: 48px;
     line-height: 1.5;
 }
+
 .team-members {
     display: flex;
     flex-direction: column;
@@ -338,9 +343,14 @@ a {
     opacity: 1;
 }
 
-.img-member {
+.wrapper-img-member {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+}
+
+.wrapper-img-member .more-text {
+    opacity: 0;
 }
 
 /* -------content-footer------ */
