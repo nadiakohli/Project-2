@@ -395,3 +395,396 @@ a {
 .copyright {
    width: 35%;
 }
+
+/* ------ */
+@media screen and (max-width: 1280px) {
+    .container {
+        padding: 0 120px 0 110px;
+    }
+
+    /* ------header-top --------- */
+    .container-header-background {
+        padding: 0 120px 0 110px;
+    }
+
+    .header-logo {
+        width: 20%;
+        display: flex;
+    }
+
+    .header-logo img {
+        width: 100px;
+    }
+    
+    .header-menu {
+        width: 30%;
+    }
+    
+    .main-nav {
+        font-size: 11px;
+    }
+
+    .main-nav li a {
+        padding: 0 10px;
+        color: #263742;
+    }
+
+    .main-nav a:hover{
+        color: #fa5c65;
+        font-weight: bold;
+    }
+
+    .header-ico {
+        width: 20%;
+    }
+
+    .header-ico img {
+        padding: 0 10px;
+    }
+
+    .header-ico img:last-child {
+        padding-left: 0;
+    }
+
+    .slogan-title-text h1 {
+        font-size: 28px;
+    }
+
+    .slogan-title-text p {
+        font-size: 16px;
+    }
+
+    .top-button button {
+        border-radius: 3px;
+        padding: 10px 23px;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+
+    /* ------content------ */
+    /* -------content-snippet------ */
+    .content-snippets {
+        margin-top: 47px;
+        line-height: 1.5;
+    }
+
+    .snippet {
+        width: 30%;
+    }
+
+    .snippet h1 {
+        font-size: 16px;
+    }
+
+    .snippet .snippet-paragraph {
+        font-size: 11px;
+        margin: 20px 0;
+    }
+
+    .snippet .more-text {
+        font-size: 11px;
+    }
+
+    /* -------content-portfolio------ */
+    .portfolio-elements {
+        margin-top: 27px;
+    }
+
+    .portfolio {
+        margin-top: 20px;
+    }
+
+    .portfolio h1 {
+        font-size: 20px;
+    }
+
+    .portfolio h2 {
+        font-size: 12px;
+    }
+
+    .portfolio .portfolio-paragraph {
+        margin: 17px 0;
+        font-size: 11px;
+    }
+
+    .wrapper-img-macbook img {
+        width: 250px;
+    }
+
+    .content-portfolio .more-text {
+        font-size: 11px;
+    }
+
+    /* -------content-our-team------ */
+    .our-team-title {
+        width: 75%;
+    }
+
+    .our-team-title h1 {
+        font-size: 20px;
+    }
+
+    .our-team-title .our-team-title-paragraph {
+        font-size: 12px;
+        margin-top: 9px;
+    }
+
+    .team-member {
+        width: 50%;
+        margin-left: 14px;
+    }
+
+    .team-member h1 {
+        font-size: 18px;
+    }
+
+    .team-member h2 {
+        font-size: 11px;
+    }
+
+    .team-member .our-team-members-paragraph {
+        font-size: 9px;
+    }
+
+    .our-team .more-text .more {
+        font-size: 11px;
+    }
+
+    .our-team .more-text {
+        margin-top: 25px;
+    }
+
+    .our-team-members {
+        margin-top: 24px;
+        line-height: 1.5;
+    }
+
+    .photo-member {
+        width: 75px;
+    }
+
+    /* -------content-footer------ */
+    .line {
+        margin: 32px 0 35px 0;
+    }
+
+    .icons-and-copyrights {
+        margin-bottom: 30px;
+    }
+
+    .social-icons {
+        width: 30%;
+    }
+
+    .social-icons img {
+        width: auto 0;
+    }
+
+    .copyright .copyright-paragraph {
+        font-size: 9px;
+    }
+
+    .copyright {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 60px 0 55px;
+    }
+
+    /* ------header-top --------- */
+    .container-header-background {
+        padding: 0 60px 0 55px;
+    }
+
+    .header-logo {
+        width: 20%;
+    }
+
+    .header-logo img {
+        width: 70px;
+    }
+
+    .header-menu {
+        display: none;
+        /* width: 30%; */
+    }
+    
+    /* .main-nav {
+        font-size: 11px;
+    }
+
+    .main-nav li a {
+        padding: 0 10px;
+    } */
+
+    .header-ico {
+        width: 20%;
+    }
+
+    .header-menu-ico {
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
+    }
+
+    .header-ico img {
+        margin-top: 10px;
+        width: auto 0;
+        padding: 0 5px;
+    }
+
+    .slogan-title-text h1 {
+        font-size: 20px;
+    }
+
+    .slogan-title-text p {
+        font-size: 12px;
+    }
+
+    .top-button button {
+        border-radius: 3px;
+        padding: 15px 20px;
+        margin-top: 20px;
+        font-size: 9px;
+    }
+
+    /* ------content------ */
+    /* -------content-snippet------ */
+    .content-snippets {
+        margin-top: 27px;
+        line-height: 1.5;
+    }
+
+    .snippet {
+        width: 30%;
+    }
+
+    .snippet h1 {
+        font-size: 16px;
+    }
+
+    .snippet .snippet-paragraph {
+        font-size: 9px;
+        margin: 20px 0;
+    }
+
+    .snippet .more-text {
+        font-size: 11px;
+    }
+
+    /* -------content-portfolio------ */
+    .portfolio-elements {
+        margin-top: 27px;
+    }
+
+    .portfolio {
+        margin-top: 20px;
+    }
+
+    .portfolio h1 {
+        font-size: 18px;
+    }
+
+    .portfolio h2 {
+        font-size: 11px;
+    }
+
+    .portfolio .portfolio-paragraph {
+        margin: 17px 0;
+        font-size: 9px;
+    }
+
+    .wrapper-img-macbook img {
+        width: 200px;
+    }
+
+    .content-portfolio .more-text {
+        font-size: 11px;
+    }
+
+    /* -------content-our-team------ */
+    .our-team-title {
+        width: 75%;
+    }
+
+    .our-team-title h1 {
+        font-size: 18px;
+    }
+
+    .our-team-title .our-team-title-paragraph {
+        font-size: 11px;
+        margin-top: 9px;
+    }
+
+    .team-members {
+        width: 100%;
+    }
+
+    .team-member {
+        width: 50%;
+        margin-left: 14px;
+    }
+
+    .team-member h1 {
+        font-size: 14px;
+    }
+
+    .team-member h2 {
+        font-size: 12px;
+    }
+
+    .team-member .our-team-members-paragraph {
+        font-size: 9px;
+    }
+
+    .our-team-members {
+        display: flex;
+        flex-direction: column
+    }
+
+    .our-team .more-text .more {
+        font-size: 11px;
+    }
+
+    .our-team .more-text {
+        margin-top: 25px;
+    }
+
+    .our-team-members {
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    .photo-member {
+        width: 50px;
+    }
+
+    /* -------content-footer------ */
+    .line {
+        margin: 15px 0 18px 0;
+    }
+
+    .icons-and-copyrights {
+        margin-bottom: 15px;
+    }
+
+    .social-icons {
+        width: 20%;
+    }
+
+    .social-icons img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .copyright .copyright-paragraph {
+        font-size: 9px;
+    }
+
+    .copyright {
+        width: 60%;
+    }
+}
