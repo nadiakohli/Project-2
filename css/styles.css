@@ -60,15 +60,20 @@ a {
 /* ------header-top --------- */
 .container-header-background {
     padding: 0 220px 0 210px;
-    background-image: url('../images/backgroundHeader.png');
     height: 100vh;
+    background-image: url('../images/backgroundHeader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .header-logo {
+    width: 20%;
     display: flex;
+}
+
+.header-menu {
+    width: 40%;
 }
 
 .header-menu-ico {
@@ -99,20 +104,24 @@ a {
 .main-nav a:hover{
     color: #fa5c65;
     font-weight: bold;
-}  
+}
+
+.header-ico {
+    width: 25%;
+}
 
 .header-ico img {
     padding: 0 15px;
 }
 
 .top-wrapper {
-    height: calc(100vh - 79px);
+    height: 100vh;
     display: flex;
     align-items: center;
 }
 
 .top {
-    width: 540px;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -168,7 +177,7 @@ a {
 }
 
 .snippet {
-    width: 256px;
+    width: 30%;
 }
 
 .snippet h1 p {
@@ -217,7 +226,7 @@ a {
 .portfolio {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 50%;
     line-height: 1.5;
     margin-top: 40px;
 }
@@ -225,7 +234,7 @@ a {
 .wrapper-img-macbook .portfolio {
     display: flex;
     flex-direction: row;
-    width: 450px; 
+    width: 50%; 
     opacity: 0;
 }
 
@@ -269,6 +278,10 @@ a {
 }
 
 /* -------content-our-team------ */
+.our-team-title {
+    width: 75%;
+}
+
 .our-team-title h1 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 32px;
@@ -285,7 +298,7 @@ a {
 }
 
 .team-member {
-    width: 160px;
+    width: 50%;
     margin-left: 28px;
 }
 
@@ -335,6 +348,7 @@ a {
 }
 
 .team-members {
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
@@ -367,7 +381,7 @@ a {
 }
 
 .social-icons {
-    width: 140px;
+    width: 20%;
     display: flex;
     justify-content: space-between;
 }
@@ -378,18 +392,6 @@ a {
     color: #b9c0c6;
 }
 
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
+.copyright {
+   width: 35%;
+}
