@@ -76,6 +76,10 @@ a {
     width: 40%;
 }
 
+.burger-menu-button {
+    display: none;
+}
+
 .header-menu-ico {
     display: flex;
     flex-direction: row;
@@ -1012,5 +1016,156 @@ a {
 
     .copyright {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 0 15px 0 15px;
+    }
+
+    /* ------header-top --------- */
+    .container-header-background {
+        padding: 0 15px 0 15px;
+    }
+
+    .header-logo img {
+        width: 60px;
+    }
+
+    .header-ico img {
+        height: 9px;
+    }
+
+    .main-nav a {
+        font-size: 7px;
+    }
+
+    .size-ico {
+        font-size: 9px;
+    }
+
+    .slogan-title-text h1 {
+        font-size: 14px;
+    }
+
+    .slogan-title-text p {
+        font-size: 7px;
+    }
+
+    .top-button button {
+        padding: 5px 8px;
+        font-size: 5px;
+    }
+
+    /* ------content------ */
+    /* -------content-snippet------ */
+    .content-snippets {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
+
+    .snippet {
+        width: 25%;
+    }
+
+    .snippet h1 {
+        font-size: 12px;
+    }
+
+    .snippet .snippet-paragraph {
+        font-size: 6px;
+        margin: 10px 0;
+    }
+
+    .snippet .more-text {
+        font-size: 6px;
+    }
+
+    .right-arrow img {
+        width: 9px;
+        margin-left: 0;
+    }
+
+    /* -------content-portfolio------ */
+    .portfolio-elements {
+        margin-top: 10px;
+    }
+
+    .portfolio h1 {
+        font-size: 14px;
+    }
+
+    .portfolio h2 {
+        font-size: 8px;
+    }
+
+    .portfolio .portfolio-paragraph {
+        margin: 5px 0;
+        font-size: 6px;
+    }
+
+    .wrapper-img-macbook img {
+        width: 115px;
+    }
+
+    .content-portfolio .more-text {
+        font-size: 6px;
+    }
+
+    /* -------content-our-team------ */
+    .our-team-title {
+        width: 75%;
+    }
+
+    .our-team-title h1 {
+        font-size: 14px;
+    }
+
+    .our-team-title .our-team-title-paragraph {
+        font-size: 8px;
+        margin-top: 6px;
+    }
+
+    .team-members {
+        width: 90%;
+    }
+
+    .team-member h1 {
+        font-size: 9px;
+    }
+
+    .team-member h2 {
+        font-size: 8px;
+    }
+
+    .team-member .our-team-members-paragraph {
+        font-size: 6px;
+    }
+
+    .our-team .more-text .more {
+        font-size: 6px;
+    }
+
+    .our-team .more-text {
+        margin-top: 10px;
+    }
+
+    .our-team-members {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
+
+    .photo-member {
+        width: 35px;
+    }
+
+    /* -------content-footer------ */
+    .line {
+        margin: 10px 0 10px 0;
+    }
+
+    .copyright .copyright-paragraph {
+        font-size: 4px;
     }
 }
